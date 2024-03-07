@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin-top: 2rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.main>h2{
+    font-size: 3rem;
+    padding-top: 1rem;
+    font-weight: 700;
+}
+
+.btn{
+   padding: 1.2rem;
+}
+
+.left-minus{
+     cursor: pointer;
+}
+
+.plus-rigth{
+    cursor: pointer;
+}
+
+.btn>button{
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+     background-color: aqua;
+     font-size: 2rem;
+     border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.footer{
+     display: flex;
+     flex-direction:row;
+}
+
+.Increment{
+    margin-left:0.5rem;
+    width: 60px;
+    background-color: aqua;
+    padding: 0.2rem;
+    font-weight: 900;
+}
+.reset{
+     margin-top: 0.5rem;
+     font-size: 1.5rem;
+     padding: 0.5rem;
+    
+}
